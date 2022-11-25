@@ -1,0 +1,46 @@
+.parent{
+	display:flex;
+	flex-direction:column;
+}
+
+.middlesec{
+	display:flex;
+	flex-direction:row;
+    height: 350px;
+}
+.middlerightsec{
+	display:flex;
+	flex-direction:column;
+	flex-grow:7;
+}
+
+
+
+
+
+.bluesec {
+	background-color:#4accf1;
+	width: 100%;
+    height: 50px;
+	margin-bottom:10px;
+}
+.greensec{
+	background-color:#65df65;
+	margin-right:7px;
+	flex-grow:3;
+}
+.yellosec{
+	background-color:yellow;
+	flex-grow:8;
+	margin-bottom:7px;
+}
+.greysec{
+	background-color:Gray;
+	flex-grow:2;
+}
+.orangesec{
+	background-color:orange;
+	width: 100%;
+    height: 65px;
+	margin-top: 8px;
+}
